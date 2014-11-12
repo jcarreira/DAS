@@ -8,15 +8,15 @@ Accesses in remote memory are trapped and memory is fetched to local access.
 Traps are served by DUNE and data is fetched with RDMA. 
 
 
-        ---------------                       --------------- 
-        | Application |                       | Application | 
-        ---------------                       --------------- 
-        |    DUNE     |                       |    DUNE     | 
-        ---------------                       --------------- 
-        |     OS      |                       |     OS      | 
-        ---------------        RDMA           --------------- 
-        |Melanox Card |    <------------->    |Melanox Card | 
-        ---------------                       ---------------
+        ----------------                       ---------------- 
+        |  Application |                       |  Application | 
+        ----------------                       ---------------- 
+        |     DUNE     |                       |     DUNE     | 
+        ----------------                       ---------------- 
+        |      OS      |                       |      OS      | 
+        ----------------        RDMA           ---------------- 
+        | Melanox Card |    <------------->    | Melanox Card | 
+        ----------------                       ----------------
 
 
 
