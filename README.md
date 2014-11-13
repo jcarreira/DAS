@@ -14,10 +14,14 @@ Traps are served by DUNE and data is fetched with RDMA.
         |     DUNE     |                       |     DUNE     | 
         ----------------                       ---------------- 
         |      OS      |                       |      OS      | 
-        ----------------        RDMA           ---------------- 
+        ----------------       Transport*      ---------------- 
         | Melanox Card |    <------------->    | Melanox Card | 
         ----------------                       ----------------
 
 
-
+*Transport can be any of:
+1) RDMA
+2) IB Verbs
+3) TCP
+4) TCP with bypass
 
