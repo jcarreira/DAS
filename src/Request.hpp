@@ -4,7 +4,7 @@
 namespace DAS {
     class Request {
         public:
-            Request(int id) : request_id(id) {
+            Request(int id = -1) : request_id(id) {
             }
 
             int getRequestId() const;

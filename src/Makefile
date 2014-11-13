@@ -1,4 +1,4 @@
-SUBDIRS	= dune network queue_object worker server
+SUBDIRS	= dune network circular_queue worker server
 
 all: $(SUBDIRS)
 
