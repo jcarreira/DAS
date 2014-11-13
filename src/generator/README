@@ -1,0 +1,6 @@
+Worker
+----------------
+
+This contains the implementation of a worker.
+
+The worker loads a queue_object and polls it continuously serving requests in the queue.
