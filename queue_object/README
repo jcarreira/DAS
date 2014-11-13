@@ -1,0 +1,4 @@
+Queue Object
+------------------
+
+Allows the creation of a queue on DAS. Workers can atomically access/use the queue 
