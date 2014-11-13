@@ -7,7 +7,8 @@
 
 int main(int argc, char* argv[]) {
 
-    DASQueue<Request> queue("service_queue");
+    uint64_t address = (uint64_t)0x08048034; // who knows?
+    Queue<Request> queue(address);
 
     while(!queue.empty()) {
         Message m = queue.tail();
