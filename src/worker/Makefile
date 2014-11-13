@@ -1,6 +1,6 @@
 CFLAGS	= -Wall -O3
 CXX = c++
-INCLUDES=-I../queue_object
+INCLUDES=-I../circular_queue
 
 all: worker
 
