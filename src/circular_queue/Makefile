@@ -1,6 +1,6 @@
-CXX=g++
-CXXFLAGS=-Wall -O3
-INCLUDES=-I..
+CXX      = g++
+CXXFLAGS = -Wall -O3
+INCLUDES = -I..
 
 all: Queue.o
 

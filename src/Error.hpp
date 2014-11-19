@@ -6,8 +6,16 @@
 namespace DAS {
     class Error {
         public:
-            Error(const std::string error_msg);
+            Error(const std::string& error_msg) 
+                : msg(error_msg)
+            {}
+
+            std::string str() const { 
+                return msg;
+            }
+
         private:
+            std::string msg;
     };
 }
 
