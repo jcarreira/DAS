@@ -7,7 +7,12 @@ An application can transparently access any memory address.
 Accesses in remote memory are trapped and memory is fetched to local access.
 Traps are served by DUNE and data is fetched with a one of several transport mechanisms.
 
-
+     ______________________________________________________________
+     |                                                            |
+     |                  Distributed Address Space                 |
+     |____________________________________________________________|
+               /\                                     /\
+               ||                                     ||
         ----------------                       ---------------- 
         |  Application |                       |  Application | 
         ----------------                       ---------------- 
