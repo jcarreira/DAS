@@ -1,3 +1,0 @@
-[submodule "dune"]
-	path = ext/dune
-	url = http://dune.scs.stanford.edu/dune.git
